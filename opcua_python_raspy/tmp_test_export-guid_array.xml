@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamespaceUris>
+    <Uri>dummy1</Uri>
+  </NamespaceUris>
+  <Aliases>
+    <Alias Alias="Guid">i=14</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+  </Aliases>
+  <UAVariable BrowseName="1:xmlguid" DataType="Guid" NodeId="ns=1;i=125" ParentNodeId="i=85" ValueRank="0">
+    <DisplayName>xmlguid</DisplayName>
+    <Description>xmlguid</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="HasComponent">i=85</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Value>
+      <uax:ListOfGuid>
+        <uax:Guid>
+          <uax:String>d3a83dad-444b-4f07-97ef-523d65efc993</uax:String>
+        </uax:Guid>
+        <uax:Guid>
+          <uax:String>e15eb1bd-b87d-41f3-a6e2-4216dee75653</uax:String>
+        </uax:Guid>
+      </uax:ListOfGuid>
+    </Value>
+  </UAVariable>
+</UANodeSet>
